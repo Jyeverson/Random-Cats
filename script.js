@@ -15,7 +15,7 @@ function getCatFact() {
 }
 
 function getCatImage() {
-  fetch('https://api.thecatapi.com/v1/images/search?limit=1&size=med')
+  fetch('https://api.thecatapi.com/v1/images/search?limit=1&size=full')
     .then(response => response.json())
     .then(data => {
       catImageEl.src = data[0].url;
