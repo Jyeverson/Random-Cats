@@ -10,7 +10,7 @@ function getCatFact() {
     })
     .catch(error => {
       //catFactEl.textContent = 'Oops! Algo deu errado.';
-      console.error(error);
+      //console.error(error);
     });
 }
 
